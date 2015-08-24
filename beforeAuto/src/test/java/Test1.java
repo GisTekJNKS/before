@@ -19,7 +19,7 @@ public class Test1 {
     @Test
     public void testPush (){
         open("http://www.tut.by/");
-        System.out.println("BEFORE BUILD PASSED!!!new PUSH SIX");
+        System.out.println("BEFORE BUILD PASSED!!!new PUSH SEVEN");
         close();
     }
 }
