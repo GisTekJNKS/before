@@ -2,6 +2,7 @@ import com.codeborne.selenide.Configuration;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.codeborne.selenide.Selenide.close;
 import static com.codeborne.selenide.Selenide.open;
 
 /**
@@ -19,5 +20,6 @@ public class Test1 {
     public void testPush (){
         open("http://www.tut.by/");
         System.out.println("BEFORE BUILD PASSED");
+        close();
     }
 }
